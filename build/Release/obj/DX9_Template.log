@@ -1,0 +1,57 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  D3D9_Device.cpp
+  D3D9_Drawing.cpp
+  Entry.cpp
+  Gui.cpp
+  Hooks.cpp
+  Running Code Analysis for C/C++...
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1600 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DX9_Template.vcxproj -> C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\build\Release\bin\DX9_Template.dll
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\dependencies\ImGui\imgui.cpp(6970): warning C28182: Dereferencing NULL pointer. 'window->RootWindowForNav' contains the same NULL value as 'parent_window' did. 
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\dependencies\ImGui\imgui.cpp(13725): warning C28182: Dereferencing NULL pointer. 'apply_focus_window' contains the same NULL value as 'g.NavWindow' did. 
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\dependencies\ImGui\imstb_truetype.h(2148): warning C26819: Unannotated fallthrough between switch labels (es.78).
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\dependencies\ImGui\imgui_widgets.cpp(4711): warning C6011: Dereferencing NULL pointer 'state'. 
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\dependencies\ImGui\imgui_widgets.cpp(5338): warning C6011: Dereferencing NULL pointer '<COMPLEX_EXPR>'. See line 4711 for an earlier location where this can occur
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\dependencies\ImGui\imgui_widgets.cpp(8733): warning C6011: Dereferencing NULL pointer 'window'. See line 8697 for an earlier location where this can occur
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(59): warning C26495: Variable 'D3DXFLOAT16::value' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(91): warning C26495: Variable 'D3DXVECTOR2::x' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(91): warning C26495: Variable 'D3DXVECTOR2::y' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(240): warning C26495: Variable 'D3DXVECTOR4::x' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(240): warning C26495: Variable 'D3DXVECTOR4::y' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(240): warning C26495: Variable 'D3DXVECTOR4::z' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(240): warning C26495: Variable 'D3DXVECTOR4::w' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(429): warning C26495: Variable 'D3DXQUATERNION::z' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(429): warning C26495: Variable 'D3DXQUATERNION::w' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(429): warning C26495: Variable 'D3DXQUATERNION::x' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(429): warning C26495: Variable 'D3DXQUATERNION::y' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(475): warning C26495: Variable 'D3DXPLANE::d' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(475): warning C26495: Variable 'D3DXPLANE::a' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(475): warning C26495: Variable 'D3DXPLANE::b' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(475): warning C26495: Variable 'D3DXPLANE::c' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(516): warning C26495: Variable 'D3DXCOLOR::g' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(516): warning C26495: Variable 'D3DXCOLOR::b' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(516): warning C26495: Variable 'D3DXCOLOR::r' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.h(516): warning C26495: Variable 'D3DXCOLOR::a' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(26): warning C26495: Variable 'D3DXFLOAT16::value' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(77): warning C26495: Variable 'D3DXVECTOR2::y' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(517): warning C26495: Variable 'D3DXVECTOR4::y' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(517): warning C26495: Variable 'D3DXVECTOR4::z' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(517): warning C26495: Variable 'D3DXVECTOR4::w' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1068): warning C26495: Variable 'D3DXQUATERNION::z' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1068): warning C26495: Variable 'D3DXQUATERNION::w' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1068): warning C26495: Variable 'D3DXQUATERNION::y' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1241): warning C26495: Variable 'D3DXPLANE::d' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1241): warning C26495: Variable 'D3DXPLANE::b' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1241): warning C26495: Variable 'D3DXPLANE::c' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1376): warning C26495: Variable 'D3DXCOLOR::g' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1376): warning C26495: Variable 'D3DXCOLOR::b' is uninitialized. Always initialize a member variable (type.6).
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3dx9math.inl(1376): warning C26495: Variable 'D3DXCOLOR::a' is uninitialized. Always initialize a member variable (type.6).

@@ -1,0 +1,2 @@
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\build\Release\bin\DX9_Template.dll.lastcodeanalysissucceeded
+C:\Users\Jvnpe\Downloads\DX9_Template\DX9_Template\build\Release\obj\NativeCodeAnalysis.read.1.tlog

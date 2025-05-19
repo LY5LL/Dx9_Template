@@ -1,0 +1,5 @@
+﻿  D3D9_Device.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  Finished generating code
+  DX9_Template.vcxproj -> C:\Users\Jvnpe\source\repos\Experimental\DX9_Template\build\Debug\bin\DX9_Template.dll
