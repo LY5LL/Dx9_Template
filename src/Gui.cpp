@@ -51,16 +51,15 @@ void Gui::Shutdown(void)
 	}
 }
 
-void Gui::Render()
+void Gui::NewFrame(void)
 {
 	ImGui_ImplDX9_NewFrame();
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
+}
 
-	ImGui::Begin("Hello, World");
-
-	ImGui::End();
-
+void Gui::EndFrame(void)
+{
 	ImGui::EndFrame();
 	ImGui::Render();
 	ImGui_ImplDX9_RenderDrawData(ImGui::GetDrawData());
@@ -68,7 +67,6 @@ void Gui::Render()
 
 LRESULT CALLBACK WindowProcess(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
-
 	if (Gui::bRender && ImGui_ImplWin32_WndProcHandler(hWnd, msg, wParam, lParam))
 	{
 		return 1L;

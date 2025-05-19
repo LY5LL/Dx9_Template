@@ -2,6 +2,8 @@
 #include "Gui.hpp"
 #include "D3D9/D3D9_Drawing.hpp"
 
+#include "ImGui/imgui.h"
+
 void __stdcall Hooks::HkEndScene(LPDIRECT3DDEVICE9 Original_pDevice)
 {
 	if (!D3D9::pDevice)
@@ -18,7 +20,13 @@ void __stdcall Hooks::HkEndScene(LPDIRECT3DDEVICE9 Original_pDevice)
 
 	if (Gui::bRender && Gui::bIsInitilised)
 	{
-		Gui::Render();
+		Gui::NewFrame();
+
+		ImGui::Begin("Hello, world");
+
+		ImGui::End();
+
+		Gui::EndFrame();
 	}
 
 	::g_EndSceneTrampoline(Original_pDevice);

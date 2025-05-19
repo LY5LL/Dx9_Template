@@ -10,6 +10,7 @@ namespace Gui
 	bool Init(LPDIRECT3DDEVICE9 pDevice);
 	void Shutdown(void);
 
-	void Render(void);
+	void NewFrame(void);
+	void EndFrame(void);
 }
 

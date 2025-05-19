@@ -57,8 +57,8 @@ bool D3D9::GetD3D9DeviceVTable(LPVOID OutTable[], SIZE_T TableLen)
 			return false;
 		}
 	}
-
-	memcpy(OutTable, *(void***)pDummyDevice, TableLen);
+	
+	memcpy(OutTable, *reinterpret_cast<void***>(pDummyDevice), TableLen);
 
 	pDummyDevice->Release();
 	pD3D9->Release();
