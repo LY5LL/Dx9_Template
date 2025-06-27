@@ -28,9 +28,6 @@ INT WINAPI HackThread(HINSTANCE hInstance)
 	}
 
 	while (!GetAsyncKeyState(VK_F1));
-
-	goto _exit;
-
 _exit:
 	MH_DisableHook(MH_ALL_HOOKS);
 
